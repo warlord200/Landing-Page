@@ -89,7 +89,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:20px
+    padding:50px
     
 }
 
@@ -103,7 +103,7 @@ li {
 .icons {
     display: flex;
     flex-wrap: wrap;
-    gap:10px
+    gap:100px
 }
 
 .icons div {
@@ -113,10 +113,89 @@ li {
 
 .icons div img {
     height: 300px;
+    border: 5px solid #1F2937;
+    border-radius: 10px;
 }
 
 .icon div {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding:20px;
+}
+
+/* quote starts here */
+
+.quote {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction:column ;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 100px ;
+}
+
+.author {
+    padding-left: 200px;
+}
+
+/* notification starts here */
+
+.banner-container {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#f9faf8;
+}
+
+.banner-heading {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: #f9faf8;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    color: #f9faf8;
+    font-size: large;
+    font-weight: bolder;
+    border-style: solid;
+    margin-left: 100px;
+    
+    
+}
+    
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
